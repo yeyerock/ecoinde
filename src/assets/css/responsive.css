@@ -1,0 +1,376 @@
+/******* Medium Small Device >= 568px ***********/
+@media screen and (min-width:35.5rem) and (max-width:63rem) and (orientation:landscape){
+
+    /* Menu */
+        .navbar .links li:first-child {
+            margin-top: 3rem;
+        }
+
+    /* Banner */
+    
+        #banner{
+            height: 100vh;
+        }
+
+        #banner .video_vertical{
+            display: none;
+        }
+
+        #banner .video_horizontal{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+   
+    /* Soluciones */
+
+        #soluciones .contenedor {
+            width: 80%;
+        }
+  
+
+    /* Proceso */
+
+        #proceso .contenedor{
+            width: 80% !important;
+        }
+ 
+
+    /* Polvos */
+
+
+
+}
+
+/* IPAD 768px*/
+@media only screen and (min-width:48rem) and (orientation:portrait){
+
+     /* Banner */
+    
+        #banner .video_vertical{
+            display: none;
+        }
+
+        #banner .video_horizontal{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+     
+
+  
+    /* Soluciones */
+  
+        #soluciones .contenedor {
+            width: 80%;
+            margin-top: 2rem;
+        }
+
+   /* Proceso */
+
+        #proceso .contenedor{
+            width: 60% !important;
+        }
+
+        .cont_lottie .lottie{
+            width: 110% !important;
+        }
+
+        #proceso .subsection_one,
+        #proceso .subsection_two,
+        #proceso .subsection_three,
+        #proceso .subsection_four,
+        #proceso .subsection_five{
+                height: 42vh !important;
+        }
+
+        #proceso .subsection_one{
+            background: url(../img/pantalla_03.png);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #proceso .subsection_two{
+            background: url(../img/pantalla_04.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 35vh !important;
+        }
+
+        #proceso .subsection_three{
+            background: url(../img/pantalla_05.png);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }    
+
+        #proceso .subsection_four{
+            background: url(../img/pantalla_06.png);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 35vh !important;
+        }
+
+        #proceso .subsection_five{
+            background: url(../img/pantalla_03.png);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+    
+
+    /* Polvos */
+      
+      
+
+    /* Refacciones */
+
+  
+
+    /*Footer  */
+
+        #footer .img_footer{
+            width:80%;
+        }
+
+}
+
+/* Normal Desktop >= 1024px*/
+@media only screen and (min-width:64rem) and  (orientation:landscape){
+
+   /* Banner */
+    
+    #banner .video_vertical{
+        display: none;
+    }
+
+    #banner .video_horizontal{
+        display: flex;
+    }
+    
+
+    /* Soluciones */
+  
+
+
+    /* Proceso */
+        #proceso .contenedor{
+            width: 60% !important;
+        }
+
+        #proceso .subsection_one,
+        #proceso .subsection_two,
+        #proceso .subsection_three,
+        #proceso .subsection_four,
+        #proceso .subsection_five{
+            height: 70vh !important;
+        }
+
+        #proceso .subsection_one{
+            background: url(../img/pantalla_03.png);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #proceso .subsection_two{
+            height: 50vh !important;
+            background: url(../img/pantalla_04.png);
+            background-size: 100% 150%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #proceso .subsection_three{
+            background: url(../img/pantalla_05.png);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #proceso .subsection_four{
+            height: 45vh !important;
+            background: url(../img/pantalla_06.png);
+            background-size: 100% 150%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #proceso .subsection_five{
+            height: 50vh !important;
+            background: url(../img/pantalla_03.png);
+            background-size: 100% 120%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .cont_lottie .lottie{
+            width: 120% !important;
+        }
+
+    /* Polvos */
+    
+               
+       
+
+      
+
+    /* Refacciones */
+
+     
+
+    /* Footer  */
+
+        #footer .img_footer{
+            width:70%;
+        }
+
+}
+
+
+/* Ipad Pro Vertical */
+@media only screen and (min-width:64rem) and  (orientation:portrait){
+
+     /* Banner */    
+       
+     
+
+    /* Proceso */
+        #proceso .contenedor{
+            width: 60% !important;
+        }
+
+        #proceso .subsection_one{
+            height: 40vh !important;
+        }
+
+        #proceso .subsection_two{
+            height: 35vh !important;
+        }
+        
+        #proceso .subsection_four{
+            height: 35vh !important;
+        }
+
+        #proceso .subsection_five{
+            height: 35vh !important;
+        }
+
+
+    /* Polvos */ 
+    
+
+
+}
+
+/*Medium Small Desktop >= 1333px*/
+@media only screen and (min-width: 83rem){
+
+    .texto{
+        font-size:1.3rem !important;
+    }
+    
+    .navbar .logo .logo_menu{
+         width: 8rem;
+    }
+       
+    /* Secciones */
+
+    .contenedor{
+        width:70% !important;
+    }
+  
+   
+   
+
+}
+
+@media only screen and (min-width:90rem){
+    /* Fuentes */
+        .titulo{
+            font-size:4rem;
+        }
+    
+        .subtitulo{
+            font-size: 2.5rem;
+        }
+        
+        .texto{
+            font-size:1.5rem;
+        }  
+
+    /* Banner */
+    
+              
+
+    /* Soluciones */
+       
+
+     /* Proceso */
+        #proceso .subsection_one,
+        #proceso .subsection_two,
+        #proceso .subsection_three,
+        #proceso .subsection_four,
+        #proceso .subsection_five
+        {
+            height: 110vh !important;
+        }
+
+        #proceso .subsection_one{
+            background-size: 100%;
+        }
+
+        #proceso .subsection_two{
+            height: 60vh !important;
+            background-size: 100%;
+        }
+        #proceso .subsection_three{
+            background-size: 100%;
+        }
+
+        #proceso .subsection_three .cont_lottie{
+            margin-left: 5rem;        
+        }
+
+        #proceso .subsection_three .cont_lottie,
+        #proceso .subsection_three .cont_texto{
+            margin-top: -7rem !important;
+        }
+
+        #proceso .subsection_four{
+            height: 60vh !important;
+            background-size: 100%;
+        }
+
+        #proceso .subsection_five{
+            height: 70vh !important;
+            background-size: 100% 130%;
+        }
+
+    #footer .img_footer{
+        width:45%;
+    }
+
+
+}
+
+/* Super Large Desktop > 1720 */
+@media only screen and (min-width:108rem){
+
+  
+
+    /* #proceso .subsection_two,
+    #proceso .subsection_four,
+    {
+        height: 85vh !important;
+    } */
+
+}
+
+@media only screen and (min-width:160rem){
+
+}
